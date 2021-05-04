@@ -8,9 +8,11 @@ function sendMail(contactForm) {
 		.then(
 			function (response) {
 				console.log('SUCCESS', response);
+				alert('Thanks Thank you we will resume contact soon will resume ');
 			},
 			function (error) {
 				console.log('FAILED', error);
+				alert('UPS!!! Something get wrong... Try again.');
 			}
 		);
 	return false; // To block from loading a new page
